@@ -21,7 +21,7 @@ from sklearn.model_selection import KFold
 
 ##-------------------------------- UNFILTERED DATA -------------------------------------------
 
-init_data = pd.read_excel('C:/Users/samir/Desktop/FALL COURSES/MSBA 6420 - Predictive Analytics/Homeworks/Homework 3/HW3.xlsx')
+init_data = pd.read_excel('data.xlsx')
 init_data.loc[0:2,]
 
 ## Removing the sequence number
